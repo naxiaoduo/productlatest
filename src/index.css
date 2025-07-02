@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-ph-orange hover:bg-ph-orange/90 text-white font-medium;
+  }
+  
+  .card-container {
+    @apply rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-300;
+  }
+  
+  .input-control {
+    @apply px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-ph-orange/50 focus:border-transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+} 

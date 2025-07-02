@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆 -->
+  <circle cx="256" cy="256" r="256" fill="#FF6154"/>
+  
+  <!-- 卡片外框 -->
+  <rect x="128" y="128" width="256" height="192" rx="16" fill="white"/>
+  
+  <!-- Product Hunt 标志 -->
+  <circle cx="176" cy="176" r="24" fill="#FF6154"/>
+  <path d="M176 164V188" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M164 176H188" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- 卡片内容线条 -->
+  <rect x="216" y="164" width="128" height="12" rx="6" fill="#333333"/>
+  <rect x="216" y="188" width="96" height="8" rx="4" fill="#666666"/>
+  <rect x="216" y="208" width="128" height="8" rx="4" fill="#DDDDDD"/>
+  <rect x="216" y="224" width="128" height="8" rx="4" fill="#DDDDDD"/>
+  
+  <!-- 卡片装饰元素 -->
+  <rect x="128" y="272" width="256" height="48" rx="8" fill="#F0F0F0"/>
+  <circle cx="160" cy="296" r="16" fill="#FF6154" opacity="0.7"/>
+  <rect x="192" y="288" width="64" height="8" rx="4" fill="#666666"/>
+  <rect x="192" y="304" width="48" height="8" rx="4" fill="#999999"/>
+  
+  <!-- 编辑图标 -->
+  <circle cx="368" cy="368" r="48" fill="#FF6154"/>
+  <path d="M352 368L368 384L384 368" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M368 352V376" stroke="white" stroke-width="6" stroke-linecap="round"/>
+</svg> 

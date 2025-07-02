@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="1200" height="630" fill="url(#paint0_linear)"/>
+  
+  <!-- Left side card example -->
+  <g filter="url(#shadow)">
+    <rect x="150" y="165" width="400" height="300" rx="16" fill="white"/>
+    
+    <!-- Product Hunt logo -->
+    <circle cx="210" cy="225" r="32" fill="#FF6154"/>
+    <path d="M210 209V241" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <path d="M194 225H226" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Card content lines -->
+    <rect x="270" y="210" width="220" height="18" rx="9" fill="#333333"/>
+    <rect x="270" y="242" width="180" height="12" rx="6" fill="#666666"/>
+    <rect x="270" y="270" width="220" height="12" rx="6" fill="#DDDDDD"/>
+    <rect x="270" y="290" width="220" height="12" rx="6" fill="#DDDDDD"/>
+    
+    <!-- Card footer -->
+    <rect x="150" y="385" width="400" height="80" rx="8" fill="#F0F0F0"/>
+    <circle cx="210" cy="425" r="24" fill="#FF6154" opacity="0.7"/>
+    <rect x="250" y="415" width="100" height="12" rx="6" fill="#666666"/>
+    <rect x="250" y="435" width="80" height="12" rx="6" fill="#999999"/>
+  </g>
+  
+  <!-- Right side text -->
+  <text x="650" y="260" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#333333">Product Latest</text>
+  <text x="650" y="320" font-family="Arial, sans-serif" font-size="32" fill="#666666">Create beautiful</text>
+  <text x="650" y="360" font-family="Arial, sans-serif" font-size="32" fill="#666666">Product Hunt cards</text>
+  
+  <!-- Bottom right button -->
+  <rect x="650" y="400" width="200" height="60" rx="30" fill="#FF6154"/>
+  <text x="750" y="440" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Get Started</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="950" cy="430" r="30" fill="#FF6154" opacity="0.2"/>
+  <circle cx="1000" cy="380" r="20" fill="#FF6154" opacity="0.2"/>
+  <circle cx="1050" cy="430" r="15" fill="#FF6154" opacity="0.2"/>
+  
+  <!-- Filter definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF5F2"/>
+      <stop offset="1" stop-color="#FFEBE8"/>
+    </linearGradient>
+    <filter id="shadow" x="140" y="155" width="420" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg> 
